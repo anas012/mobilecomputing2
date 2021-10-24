@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">My App</string>
+    <string name="app_name">Unit Converter</string>
+
+
+    <string-array name="unitnames1">
+        <item>Select</item>
+        <item>meter</item>
+        <item>kilogram</item>
+        <item>centimenter</item>
+    </string-array>
+
+    <string-array name="unitnames2">
+        <item>Select</item>
+        <item>cenimeter</item>
+        <item>garams</item>
+        <item>meters</item>
+    </string-array>
 </resources>
