@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unit Converter</string>
+    <string name="app_name">Zakat Calculator</string>
 
 
     <string-array name="unitnames1">

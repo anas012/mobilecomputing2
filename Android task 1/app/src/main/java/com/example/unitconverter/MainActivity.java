@@ -20,9 +20,19 @@ public class MainActivity extends AppCompatActivity {
     }
     public void btnclick(View View)
     {
-//        EditText value=findViewById(R.id.text1);
-//        String value1=value.getText().toString();
-//        Double doublevalue=Double.parseDouble(value1);
+        EditText gold=findViewById(R.id.editText1);
+        EditText silver=findViewById(R.id.editText2);
+        EditText cash=findViewById(R.id.editText3);
+        EditText otheramt=findViewById(R.id.editText4);
+        String strgold=gold.getText().toString();
+        Double doublegold=Double.parseDouble(strgold);
+        String strsilver=gold.getText().toString();
+        Double doublesilver=Double.parseDouble(strsilver);
+        String strcash=cash.getText().toString();
+        Double doublecash=Double.parseDouble(strcash);
+        String strotheramt=otheramt.getText().toString();
+        Double doubleotheramt=Double.parseDouble(strotheramt);
+
 
     }
 }
